@@ -1,0 +1,105 @@
+.navbar__logo, .navbar__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.root {
+  background-image: url(http://s3.amazonaws.com/img.mynetdiary.com/blog/meal-plan-template-for-weight-loss.jpeg);
+  background-size: cover;
+  height: 657px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #4c4434;
+  height: 76px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5rem calc((100vw - 1200px) / 2);
+  z-index: 10;
+  position: relative;
+}
+
+.navbar__logo {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  margin-left: -39px;
+}
+
+.navbar__bars {
+  color: #fff;
+  opacity: 0;
+}
+
+.navbar__menu--links {
+  color: #fff;
+  text-decoration: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.1rem;
+}
+
+.content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+  padding-bottom: 188px;
+  margin-top: 169px;
+  padding-right: 251px;
+}
+
+.para {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+  margin-top: -175px;
+  padding-right: 470px;
+}
+
+.button {
+  margin-top: 40px;
+  margin-left: 134px;
+  width: 180px;
+  border-radius: 18px;
+  height: 50px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.button:hover {
+  background-color: #111010;
+}
+/*# sourceMappingURL=styles.css.map */

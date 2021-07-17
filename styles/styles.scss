@@ -1,0 +1,95 @@
+@import "color";
+
+%align-center {
+  display: flex;
+  align-items: center;
+}
+.root {
+  background-image: url(http://s3.amazonaws.com/img.mynetdiary.com/blog/meal-plan-template-for-weight-loss.jpeg);
+  background-size: cover;
+  height: 657px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+//navbar section
+
+.navbar {
+  background-color: $beige;
+  height: 76px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem calc((100vw - 1200px) / 2);
+  z-index: 10;
+  position: relative;
+
+  &__logo {
+    color: $light;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-left: -39px;
+    @extend %align-center;
+  }
+
+  &__bars {
+    color: $light;
+    opacity: 0;
+  }
+}
+.navbar__menu {
+  @extend %align-center;
+
+  &--links {
+    color: $light;
+    text-decoration: none;
+    justify-content: center;
+    padding: 1.1rem;
+  }
+}
+
+//Content Section
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: $light;
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+  padding-bottom: 188px;
+  margin-top: 169px;
+  padding-right: 251px;
+}
+.para {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: $light;
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+  margin-top: -175px;
+  padding-right: 470px;
+}
+
+//button section
+
+.button {
+  margin-top: 40px;
+  margin-left: 134px;
+  width: 180px;
+  border-radius: 18px;
+  height: 50px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+
+  &:hover {
+    background-color: rgb(17, 16, 16);
+  }
+}
